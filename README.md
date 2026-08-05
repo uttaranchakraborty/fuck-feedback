@@ -6,6 +6,10 @@ A one-click Chrome Extension that automatically fills online feedback forms afte
 
 ---
 
+<img width="452" height="737" alt="image" src="https://github.com/user-attachments/assets/5684062e-9c7e-4683-bedc-29164d983c17" />
+<img width="452" height="737" alt="image" src="https://github.com/user-attachments/assets/fded174f-26d5-43be-b171-80d9792f045e" />
+
+
 ## Features
 
 - **ALL AGREE** — Selects every "Strongly Agree" option
