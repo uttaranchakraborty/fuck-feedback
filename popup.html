@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <div class="banner-container">
+    <img src="icons/banner.png" alt="Banner" class="banner">
+</div>
+  <title> F*CK FEEDBACK FORM !</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 class="header-title">FUCK FEEDBACK FORM </h1>
+      <p class="header-subtitle">by UC_DADDY</p>
+    </header>
+
+    <section class="description">
+      <p>Automatically complete feedback forms in seconds.</p>
+      <p>Select a response mode below and press START.</p>
+    </section>
+
+    <section class="options">
+      <div class="option-card" data-mode="agree" id="card-agree">
+        <div class="option-icon agree-icon">🟢</div>
+        <div class="option-label">ALL AGREE</div>
+        <div class="option-desc">Select every "Strongly Agree" option.</div>
+      </div>
+
+      <div class="option-card" data-mode="disagree" id="card-disagree">
+        <div class="option-icon disagree-icon">🔴</div>
+        <div class="option-label">ALL DISAGREE</div>
+        <div class="option-desc">Select every "Strongly Disagree" option.</div>
+      </div>
+
+      <div class="option-card" data-mode="random" id="card-random">
+        <div class="option-icon random-icon">🎲</div>
+        <div class="option-label">RANDOM</div>
+        <div class="option-desc">Randomly choose ONE answer for every question.</div>
+      </div>
+    </section>
+
+    <button class="start-btn" id="start-btn">
+      <span class="start-icon">▶</span>
+      <span class="start-text">START</span>
+    </button>
+
+    <div class="status" id="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
